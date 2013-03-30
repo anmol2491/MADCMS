@@ -1,0 +1,70 @@
+/*Custom CMS Project By : Deepak Mittal, Anmol Mittal, Ashish Maheshwari
+Completed on : 10-2-2013
+WT Based SE LAB ,VITS Gzb*/
+body {
+  background:#e0e0e0;
+	margin:0 auto 0;
+	padding:0;color:#333333;
+	width:600px;
+	height:600px;
+}
+
+
+div.lwidth {
+
+	margin:80px auto 0;
+	padding:0;
+	background:#FFFFFF;
+	width:500px;
+	height: 180px;
+	
+}
+
+/* default forms */
+form input, form textarea, select {
+	border:1px solid #999999;
+	border-bottom-color:#cccccc;
+	border-right-color:#cccccc;
+	padding:5px;
+	
+	font-size:1.0em;
+	margin:2px;
+}
+
+form input.button {
+	background:#0D7ABF none repeat-x scroll bottom left;
+	color:#ffffff;
+	border:1px solid #00F;
+	color:#ffffff;
+	font-size:0.8em;
+	padding:6px 14px;
+	font-weight:bold;}
+
+mlabel {
+	float:left;
+	margin-right:10px;
+	width:180px;
+	font-weight:bold;	
+	}
+
+div.page-wrap {
+	padding:200px;
+	clear:both;
+	background-color:#fff;
+}
+
+div.content {
+	float:left;
+	width:100%;
+	padding-right:20px;
+	font-size:90%;
+}
+
+
+div.footer {
+	background:none repeat scroll 0 0 #262626;
+	clear:both;
+	color:#FFFFFF;
+	padding:10px;
+	text-align:center;
+}
