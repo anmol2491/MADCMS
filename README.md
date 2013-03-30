@@ -10,9 +10,13 @@ Technologies used
 This project will be using the following technology stack:
 
 a)  HTML : As markup language
+
 b)	CSS : As style sheet language
+
 c)	PHP : As programming language
+
 d)	SQL :  For data management
+
 e)	JavaScript : As scripting language 
 
 
