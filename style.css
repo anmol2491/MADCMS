@@ -1,0 +1,292 @@
+/*Custom CMS Project By : Deepak Mittal, Anmol Mittal, Ashish Maheshwari
+Completed on : 10-2-2013
+WT Based SE LAB ,VITS Gzb*/ 
+
+body {
+  font-size: 80%;
+  font-family:Arial, Helvetica, sans-serif;
+ 
+  margin-right:auto;
+	margin-left:auto;
+  background:url('3.png');
+  width: 1250px;
+}
+
+form
+{
+width:612px;
+}
+
+#adwrap{
+
+margin-right:auto;
+margin-left:auto;
+width:800px;
+background-color:#ffffff;
+height:600px;
+}
+
+#wrapper {
+display:inline; 
+float:right;
+margin-top:-8px;
+margin-bottom:auto;
+	margin-right:auto;
+	margin-left:auto;
+width:933px;
+height:100%;
+background-color:#ffffff;
+
+}
+#wrappers 
+{
+margin-top:100px;
+	margin-right:auto;
+	margin-left:auto;
+	width:600px;;
+background-color:#ffffff;
+
+}
+bor h1
+{
+padding:3px;
+border: 1px double #000;
+outline: 2px solid #699;
+outline-offset: -4px;
+
+}
+
+#wd
+{
+width:200px;
+}
+
+div a img
+{
+width:275px;
+margin-left:50px;
+display:inline;
+float:right;
+}
+
+#sidebar {
+height:100%;
+margin-top: 61px;
+margin-left: 50px;
+border: 1px solid #ffffff;
+position:fixed;
+display:inline; 
+width:265px;
+color:#ff0000;
+background-color:#ffffff;
+float:right;
+
+
+}
+/* Header informatiom */
+
+#ticker
+{
+display:inline; 
+float:right;
+}
+
+#logo {
+    display:inline;  
+  	font-size:20px;
+ margin-top:-8px;
+	position:fixed;
+}
+
+/* Navi informatiom */
+
+#adna
+{
+
+	background:#000000;
+	height:40px;   
+    display:block;
+	width: 80px%;
+	margin-bottom:30px;
+	
+}
+
+#navigation
+{
+   position:fixed;
+	background:#000000;
+	height:40px;   
+    display:block;
+	width: 938px;
+	
+}
+
+
+ul li a:link,a:visited
+{
+display:inline;
+
+font-weight:bold;
+text-decoration:none;
+text-align:center;
+text-transform:uppercase;
+}
+
+ul li a:hover,a:active
+{
+background-color:#7A991A;
+text-decoration:none;
+
+padding-botton:0;
+}
+
+.menu {
+	float:			left;
+	margin-bottom:	1em;
+	padding:0px;
+}
+.menu a {
+	padding: 		.75em 1em;
+	text-decoration:none;
+	color:#ffffff;
+}
+.menu a 
+{ 
+	color:#ffffff;
+}
+.menu li
+ {
+	background:#000000;
+	display:inline;
+}
+#contents
+ {
+width: 94%;
+margin:auto;
+margin-top: 50px;
+}
+
+#content 
+{
+width: 920px;
+margin:auto;
+margin-top: 70px;
+margin-left:16px;
+padding-bottom:200px;
+height:100%;
+}
+
+.adcontent 
+{
+width: 94%;
+margin: auto;
+margin-top: 50px;
+
+height: 500px;
+}
+
+#hel
+{
+
+
+}
+.footers
+{
+color:#fff;
+padding:10px;
+
+background: black;
+width: 582px;
+margin-right: auto;
+margin-left: auto;
+margin-top: -10px;
+}
+
+#footerk
+{
+color:#fff;
+padding-top:5px;
+padding-bottom:5px;
+background:#000000;
+width: 800px;
+margin-right: auto;
+margin-left: auto;
+}
+
+cmnt
+{
+clear:both;
+dispaly:inline;
+font-size:15px;
+
+
+
+
+}
+#cmt
+{
+padding:10px;
+}
+
+name
+{
+font-size:15px;
+text-transform:uppercase;
+display:inline;
+float:left;
+
+}
+
+#footer {
+	clear:both;
+	color:#fff;
+	height:auto;
+	
+	padding:10px;
+	width:960px;
+	background:#000;
+	 
+	padding-right: 80px;
+	width: 844px;
+}
+
+a {
+	 text-decoration:none;
+	 color:#2d67a7;
+	 background-color: inherit;
+}
+
+a:hover {
+	 text-decoration:underline;
+}
+
+h1 {
+	  font-size: 1.5em;
+	  line-height: 1em;
+	  padding-bottom:0.2em;
+}
+
+
+label {
+	float:left;
+	font-weight:bold;
+	margin-right:10px;
+	width:180px;
+}
+
+.button {
+	background:#0D7ABF none repeat-x scroll bottom left;
+	color:#ffffff;
+	border:1px solid #00F;
+	color:#ffffff;
+	font-size:0.8em;
+	padding:6px 14px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+/* table */
+table {width:98%; border:1px solid #DDDDDD; font-size:12px; color:#000;background:#fff; margin-bottom:10px;}
+table th {background-color:#E5E5E5; border:1px solid #BBBBBB; padding:3px 6px; font-weight:normal; color:#000;}
+table tr td {border:1px solid #DDDDDD; padding:5px 6px;}
+table tr.alt td {background-color:#E2E2E2;}
+table tr:hover {background-color:#F0F0F0; color:#000;}
