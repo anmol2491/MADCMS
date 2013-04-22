@@ -12,7 +12,7 @@ login_required();
 
 //If Logged Out 
 if(isset($_GET['logout'])){
-  logout();
+	logout();
 }
 
 

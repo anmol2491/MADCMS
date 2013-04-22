@@ -17,7 +17,7 @@ require('config.php'); ?>
 <body>
 <div id="hel">
  <!--Logo To Our Site-->
-  <div id="logo"><a href="http://localhost/MADCMS/"><img src="logo.png" alt="MADCMS" title="MADCMS" border="0"/></a></div>
+	<div id="logo"><a href="http://localhost/MADCMS/"><img src="logo.png" alt="MADCMS" title="MADCMS" border="0"/></a></div>
 	
 	
 	<?php
@@ -30,7 +30,9 @@ require('config.php'); ?>
 	<li><a href="http://localhost/MADCMS/">Home</a></li>
 	<li><a href="http://localhost/MADCMS/reg.php">Register</a></li>
 	<li><a href="http://localhost/MADCMS/admin/">Admin Panel</a></li>
-	<?php
+	<li><a href="http://localhost/MADCMS/posts.php">Posts</a></li>
+	<li><a href="http://localhost/MADCMS/madcms.rar">Source Code</a></li>
+	<!-- <?php
 		//Adding Remaning Pages
 		$sql = mysql_query("SELECT * FROM pages WHERE isRoot='1' ORDER BY pageID");
 		while ($row = mysql_fetch_object($sql))
@@ -39,7 +41,7 @@ require('config.php'); ?>
 			
 			echo "<li><a href=\"http://localhost/MADCMS/?p=$row->pageID\">$string..</a></li>";
 		}
-	?>
+	?> -->
 	</ul>
 	</div>
 	
@@ -62,19 +64,20 @@ require('config.php'); ?>
 
 		$id = 0;
 		$id = mysql_real_escape_string($id);
-		$q = mysql_query("SELECT * FROM pages` WHERE pageID IS NOT NULL ");
+		$q = mysql_query("SELECT * FROM pages WHERE pageID IS NOT NULL ORDER BY pageID desc ");
+		$sql = mysql_query("SELECT * FROM pages");
 		    
  
-while($r= mysql_fetch_array($q))
+while($r= mysql_fetch_object($q))
   {
-  echo "<h1>";
-  echo "<p>";
-  echo $r['pageTitle'];
-  echo "</p>";
-  echo "</h1>";
-  echo "<br />";
-  echo $r['pageCont'];
-  echo "";
+ 
+
+			echo "<h1><a href=\"http://localhost/MADCMS/?p=$r->pageID\">$r->pageTitle</a></h1>";
+				echo"<br />";
+				
+	echo $r->pageCont;
+		echo"<br />";
+	echo"<br />";
   }
 	 
    $id++;

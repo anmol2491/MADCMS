@@ -2,16 +2,18 @@
 Completed on : 10-2-2013
 WT Based SE LAB ,VITS Gzb*/ 
 
-body {
+
+
+body 
+{
   font-size: 80%;
   font-family:Arial, Helvetica, sans-serif;
  
-  margin-right:auto;
+	margin-right:auto;
 	margin-left:auto;
   background:url('3.png');
   width: 1250px;
 }
-
 form
 {
 width:612px;
@@ -63,10 +65,7 @@ width:200px;
 
 div a img
 {
-width:275px;
-margin-left:50px;
-display:inline;
-float:right;
+
 }
 
 #sidebar {
@@ -98,6 +97,13 @@ float:right;
 	position:fixed;
 }
 
+#logo a img
+{
+width:275px;
+margin-left:50px;
+display:inline;
+float:right;
+}
 /* Navi informatiom */
 
 #adna

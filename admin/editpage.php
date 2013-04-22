@@ -7,7 +7,7 @@ WT Based SE LAB ,VITS Gzb*/ ?>
 require('../config.php'); 
 
 if(!isset($_GET['id']) || $_GET['id'] == ''){ //If No id Is Passed
-  header('Location: http://localhost/MADCMS/admin' );
+	header('Location: http://localhost/MADCMS/admin' );
 }
 
 //If New Content Submitted

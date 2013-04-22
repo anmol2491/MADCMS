@@ -16,7 +16,7 @@
 <div id="wrappers">
 <form method="post" action="">
     <table>
-  <th colspan="2">Register to MADCMS</th>
+	<th colspan="2">Register to MADCMS</th>
 	<tr>
 	<td>
 	

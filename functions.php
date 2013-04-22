@@ -28,7 +28,7 @@ function login($user, $pass)
    {
       //The Username and Pass Matches
       //Start The Session
-    $_SESSION['authorized'] = true;
+	  $_SESSION['authorized'] = true;
 					  
 	  // Direct to Admin Panel
       header('Location: http://localhost/MADCMS/admin');

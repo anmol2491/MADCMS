@@ -44,7 +44,7 @@ require('../config.php');
 //If Submitted
 if(isset($_POST['submit'])){
 
-  $title = $_POST['pageTitle'];
+	$title = $_POST['pageTitle'];
 	$content = $_POST['pageCont'];
 	
 	$title = mysql_real_escape_string($title);

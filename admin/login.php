@@ -20,7 +20,7 @@ header('Location: http://localhost/MADCMS/admin');
 </head>
 <body>
 <div class="lwidth">
-  
+	
 	<div style="margin-left:auto;margin-right:auto">
 	<img src="http://localhost/MADCMS/logo.png">
 	</div>

@@ -15,13 +15,35 @@ WT Based SE LAB ,VITS Gzb*/ ?>
 
 <body>
 
-<div id="sidebar">
-<p>I am a sidebar</p>
-<script language="JavaScript" type="text/javascript"> 
- document.write('<script language="JavaScript" src="http://www.worldweatheronline.com/widget/v2/weather-widget.ashx?locid=99520&root_id=1&wc=FISHING&map=~/fishing/lac-transparent-weather-widget/quebec/ca.aspx&width=220&custom_header=MADCMS Weather Box&num_of_day=6&title_bg_color=020202&title_text_color=FFFFFF&widget_bg_color=FFFFFF&widget_text_color=020202&type=js&cb=' + Math.random() + '" type="text/javascript"><\/scr' + 'ipt>');
- </script></div>
+<div id="sidebar"> 
+<h1 style="color:black;margin-left:10px;">Recent Posts</h1>
+<?php
+
+		$sql = mysql_query("SELECT * FROM pages WHERE pageID IS NOT NULL ORDER BY pageID desc");
+		 $i=0;
+		echo'<ul> ';
+		
+while($i<5)
+{
+$r= mysql_fetch_object($sql);
+  
+		echo'<br /> <span style="font-size:10px">';
+
+			echo "<li><a href=\"http://localhost/MADCMS/?p=$r->pageID\">$r->pageTitle</a></li>";
+	
+	$i++;
+ 
+}
+?>
+</ul>
+
+<b style="float:right;font-size:10px">
+<a href="http://localhost/MADCMS/posts.php">see more</a></b>
+</div>
+
+</div>
 <div id="wrapper">
-   
+
    </body>
    
  </html>

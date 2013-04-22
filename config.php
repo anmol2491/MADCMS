@@ -14,7 +14,7 @@ $conn = @mysql_select_db (DBNAME);
 //Checking connection to db
 if(!$conn){
 
-  die( "Cannot find MADCMS db. Check PHPMYADMIN ");
+	die( "Cannot find MADCMS db. Check PHPMYADMIN ");
 }
 
 //define include checker
